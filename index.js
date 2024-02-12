@@ -43,7 +43,7 @@ subhanAllahIncrement.addEventListener("click", function () {
 subhanAllahDecrement.addEventListener("click", function () {
   if (subhanAllah > 0) {
     subhanAllah -= 1;
-    alhamdulilahDisply.innerText = subhanAllah;
+    subhanAllahDisply.innerText = subhanAllah;
   } else {
     alert("You can't added nagetive value");
   }
